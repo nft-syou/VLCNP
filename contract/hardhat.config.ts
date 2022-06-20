@@ -1,5 +1,6 @@
 import "dotenv/config";
 import "@nomiclabs/hardhat-waffle";
+import "@nomiclabs/hardhat-ethers";
 import type { HardhatUserConfig } from "hardhat/config";
 require("./scripts/tasks");
 import { getEnvVariable } from "./scripts/helpers";
